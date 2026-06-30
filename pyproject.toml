@@ -1,0 +1,19 @@
+[project]
+name = "lmi-ascii"
+version = "0.1.0"
+description = "Ethernet ASCII Protocol Client for LMI Technologies Sensors"
+authors = [
+    {name = "j4ggr",email = "reto@jaeggli.email"},
+]
+dependencies = []
+requires-python = ">=3.13"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
